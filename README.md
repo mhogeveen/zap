@@ -30,11 +30,3 @@ Zap is a bug tracker that allows developers to do easily track bugs and issues i
 ## Mockups
 
 Comping soon!
-
-## Contact
-
-If you want to contact me you can reach me at <mhogeveen94@gmail.com>.
-
-## License
-
-This project uses the following license: MIT license.
