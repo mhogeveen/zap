@@ -1,6 +1,8 @@
 # Zap
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/mhogeveen/zap)
+![GitHub code size](https://img.shields.io/github/languages/code-size/mhogeveen/zap)
+![GitHub license](https://img.shields.io/github/license/mhogeveen/zap)
 
 Zap is a bug tracker that allows developers to do easily track bugs and issues in their (web)application.
 
