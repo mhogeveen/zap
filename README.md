@@ -17,6 +17,7 @@ Zap is a bug tracker that allows developers to do easily track bugs and issues i
 
 ## Intended Features
 
+-  Login with Github OAuth API
 -  Views:
    -  Dashboard
    -  Projects (choose project)
@@ -29,4 +30,14 @@ Zap is a bug tracker that allows developers to do easily track bugs and issues i
 
 ## Mockups
 
-Comping soon!
+Login screen v1
+![Login screen v1 - mockup](./mockups/Zap-Login.png)
+
+Dashboard screen v1
+![Login screen v1 - mockup](./mockups/Zap-Dashboard.png)
+
+Projects screen v1
+![Projects screen v1 - mockup](./mockups/Zap-Projects.png)
+
+Project screen v1
+![Project screen v1 - mockup](./mockups/Zap-Project.png)
