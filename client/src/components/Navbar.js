@@ -1,5 +1,7 @@
 import React from 'react'
 
+import LogInOut from './LogInOut'
+
 const Navbar = () => {
    return (
       <nav className='navbar'>
@@ -24,7 +26,7 @@ const Navbar = () => {
             <li className='navbar__menu-item'>Projects</li>
             <li className='navbar__menu-item'>Labels</li>
          </ul>
-         <button className='btn btn--github'>Login with Github</button>
+         <LogInOut />
       </nav>
    )
 }
