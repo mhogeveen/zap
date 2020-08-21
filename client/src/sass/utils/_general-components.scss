@@ -1,0 +1,36 @@
+.btn {
+   border: none;
+   border-radius: 0.25rem;
+   padding: 0.5rem 1rem;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: background-color 200ms ease;
+   display: flex;
+
+   &--github {
+      position: relative;
+      padding-left: 2.75rem;
+      background-color: $clr-dark;
+      color: $clr-light;
+      @extend .btn--icon;
+
+      &:hover {
+         background-color: lighten($clr-dark, 10%);
+      }
+
+      &::before {
+         content: '\f09b';
+         font-family: 'Font Awesome 5 Brands';
+         color: $clr-light;
+      }
+   }
+}
+
+.btn--icon {
+   &::before {
+      font-size: 1.5rem;
+      position: absolute;
+      align-self: center;
+      left: 0.75rem;
+   }
+}

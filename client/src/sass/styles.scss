@@ -1,3 +1,17 @@
+// Import utils
+@import './utils/variables';
+@import './utils/general-components';
+
+// Import partials
+@import './components/navbar';
+
+// General styles
+* {
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+}
+
 body {
    background: #fafafa;
 }
