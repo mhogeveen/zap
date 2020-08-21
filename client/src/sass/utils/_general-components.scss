@@ -14,7 +14,8 @@
       color: $clr-light;
       @extend .btn--icon;
 
-      &:hover {
+      &:hover,
+      &:focus {
          background-color: lighten($clr-dark, 10%);
       }
 
