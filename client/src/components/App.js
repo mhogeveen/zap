@@ -9,19 +9,24 @@ import Navbar from './Navbar'
 const App = () => {
    return (
       <>
-         <Auth0ProviderWithHistory>
-            <Navbar />
-         </Auth0ProviderWithHistory>
-
          <Router history={history}>
-            <Switch>
-               <Route exact path='/'>
-                  <div>Home</div>
-               </Route>
-               <Route path='/dashboard'>
-                  <div>Dashboard</div>
-               </Route>
-            </Switch>
+            <Auth0ProviderWithHistory>
+               <Navbar />
+               <Switch>
+                  <Route exact path='/'>
+                     <div>Home</div>
+                  </Route>
+                  <Route path='/dashboard'>
+                     <div>Dashboard</div>
+                  </Route>
+                  <Route path='/projects'>
+                     <div>Projects</div>
+                  </Route>
+                  <Route path='/labels'>
+                     <div>Labels</div>
+                  </Route>
+               </Switch>
+            </Auth0ProviderWithHistory>
          </Router>
       </>
    )
